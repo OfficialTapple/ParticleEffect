@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.darkblade12</groupId>
+    <groupId>world.tapple</groupId>
     <artifactId>particleeffect</artifactId>
-    <version>1.7.0-SNAPSHOT</version>
+    <version>1.7.0-TAPPLE</version>
     <name>ParticleEffect</name>
     <description>Particle effect library for Bukkit/Spigot</description>
     
@@ -26,15 +26,10 @@
     
     <distributionManagement>
         <repository>
-            <id>sinndev-repo</id>
-            <name>Releases</name>
-            <url>http://repo.sinndev.com/content/repositories/releases/</url>
+            <id>github</id>
+            <name>GitHub OfficialTapple Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/OfficialTapple/ParticleEffect</url>
         </repository>
-        <snapshotRepository>
-            <id>sinndev-repo</id>
-            <name>Snapshots</name>
-            <url>http://repo.sinndev.com/content/repositories/snapshots/</url>
-        </snapshotRepository>
     </distributionManagement>
     
     <build>
